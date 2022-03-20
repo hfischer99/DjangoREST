@@ -15,9 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from categorias.api import viewsets as categoriaviewsets
-
 from rest_framework import routers
+from categorias.api import viewsets as categoriaviewsets
+from imoveis.views import orcamento_view
 
 route = routers.DefaultRouter()
 
@@ -28,4 +28,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api-auth/', include('rest_framework.urls')),
     path('', include(route.urls)),
+    path(r'orcamento/<int:pk>', orcamento_view, name='imoveis')
 ]

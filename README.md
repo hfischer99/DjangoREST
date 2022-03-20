@@ -1,5 +1,22 @@
-# DjangoREST
-Django REST by Henrique Fischer
+# DjangoREST 
+- **DESAFIO 1** (http://127.0.0.1:8000/categorias/):
+  - Criar um novo projeto em DJANGO
+  - Conectar ao banco de dados
+  - Criar uma Model de Categorias
+  - Essa Categoria deve ser única e isso deve ser garantido no banco de dados
+  - Expor uma API de categorias implementando a segurança padrão do DJANGO
+
+
+- **DESAFIO 2** (http://127.0.0.1:8000/admin/imoveis/orcamento/):
+  - Existem X casas à venda. Juntas essas casas valem I reais. Você tem um orçamento de B reais para gastar. Qual o maior número de casas que você pode comprar com o orçamento?
+  - A quantidade de casas e valor podem ser definidos da maneira que desejar, é possivel também efetuar pesquisas durante o desenvolvimento
+Output. Ao final do processamento, exiba a quantidade de casas que puderam ser compradas, bem como o valor total gasto.
+  
+
+  - Cadastro de casas: http://127.0.0.1:8000/admin/imoveis/casa/
+  - Adicionar Orçamento: http://127.0.0.1:8000/admin/imoveis/orcamento/
+  - Template Orçamento: http://127.0.0.1:8000/orcamento/ [ID]
+
 
 ## 🖥️ Comandos
 ```
