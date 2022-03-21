@@ -22,6 +22,8 @@ Output. Ao final do processamento, exiba a quantidade de casas que puderam ser c
   - Template Orçamento: 
     - http://127.0.0.1:8000/orcamento/ [id]  ou 
     - http://127.0.0.1:8000/orcamentos/ [id]/
+    - ![Screenshot_5](https://user-images.githubusercontent.com/43329377/159197709-65eab0be-7302-4321-91d1-0ab6efa19de4.png)
+
 
 
 ## 🖥️ Comandos
