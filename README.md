@@ -13,9 +13,15 @@
 Output. Ao final do processamento, exiba a quantidade de casas que puderam ser compradas, bem como o valor total gasto.
   
 
-  - Cadastro de casas: http://127.0.0.1:8000/admin/imoveis/casa/
-  - Adicionar Orçamento: http://127.0.0.1:8000/admin/imoveis/orcamento/
-  - Template Orçamento: http://127.0.0.1:8000/orcamento/ [ID]
+  - Cadastro de casas: 
+    - http://127.0.0.1:8000/admin/imoveis/casa/ ou
+    - http://127.0.0.1:8000/casas/
+  - Adicionar Orçamentos: 
+    - http://127.0.0.1:8000/admin/imoveis/orcamento/ ou 
+    - http://127.0.0.1:8000/orcamentos/
+  - Template Orçamento: 
+    - http://127.0.0.1:8000/orcamento/ [id]  ou 
+    - http://127.0.0.1:8000/orcamentos/ [id]/
 
 
 ## 🖥️ Comandos

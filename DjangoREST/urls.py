@@ -17,12 +17,15 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
 from categorias.api import viewsets as categoriaviewsets
+from imoveis.api import viewsets as imoveisviewsets
 from imoveis.views import orcamento_view
 
 route = routers.DefaultRouter()
 
 route.register(r'categorias', categoriaviewsets.CategoriaViewSet, basename="categorias")
 route.register(r'users', categoriaviewsets.UserViewSet)
+route.register(r'casas', imoveisviewsets.CasaViewSet, basename="casas")
+route.register(r'orcamentos', imoveisviewsets.OrcamentoViewSet, basename="orcamentos")
 
 urlpatterns = [
     path('admin/', admin.site.urls),

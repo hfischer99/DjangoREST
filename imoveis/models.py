@@ -18,6 +18,7 @@ class Orcamento(models.Model):
     investimento_total = models.DecimalField(verbose_name='Total do Investimento', max_digits=10, decimal_places=2, editable=False, null=True, blank=True)
 
     def post_save(self, request=None):
+        self.casas.clear()
         self.quantidade_casas(self.valor)
         self.data = datetime.now()
         self.save()
